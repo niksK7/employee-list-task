@@ -1,0 +1,72 @@
+[
+  {
+    "id": 1,
+    "name": "Lin Chang",
+    "title": "Marketing Assistant",
+    "email": "lin.chang@example.com",
+    "startDate": "2024-02-01"
+  },
+  {
+    "id": 2,
+    "name": "Carlos Alvarez",
+    "title": "Software Engineer",
+    "email": "carlos.alvarez@example.com",
+    "startDate": "2023-07-15"
+  },
+  {
+    "id": 3,
+    "name": "Mia Robinson",
+    "title": "HR Manager",
+    "email": "mia.robinson@example.com",
+    "startDate": "2021-11-30"
+  },
+  {
+    "id": 4,
+    "name": "Jamal Thompson",
+    "title": "IT Support Specialist",
+    "email": "jamal.thompson@example.com",
+    "startDate": "2022-08-22"
+  },
+  {
+    "id": 5,
+    "name": "Ava Patel",
+    "title": "UX Designer",
+    "email": "ava.patel@example.com",
+    "startDate": "2023-01-09"
+  },
+  {
+    "id": 6,
+    "name": "Noah Kim",
+    "title": "Data Analyst",
+    "email": "noah.kim@example.com",
+    "startDate": "2022-05-14"
+  },
+  {
+    "id": 7,
+    "name": "Emily Johnson",
+    "title": "Product Manager",
+    "email": "emily.johnson@example.com",
+    "startDate": "2021-03-18"
+  },
+  {
+    "id": 8,
+    "name": "Ravi Narayan",
+    "title": "Business Analyst",
+    "email": "ravi.narayan@example.com",
+    "startDate": "2022-12-05"
+  },
+  {
+    "id": 9,
+    "name": "Sophia Li",
+    "title": "Finance Coordinator",
+    "email": "sophia.li@example.com",
+    "startDate": "2023-09-01"
+  },
+  {
+    "id": 10,
+    "name": "Lucas Martin",
+    "title": "Sales Executive",
+    "email": "lucas.martin@example.com",
+    "startDate": "2020-06-12"
+  }
+]
