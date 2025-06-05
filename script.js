@@ -2,6 +2,7 @@ let employees = [];
 
 document.addEventListener("DOMContentLoaded", () => {
   const listContainer = document.getElementById("employee-list");
+  const searchInput = document.getElementById('search');
 
   // Fetch employees from JSON file
   fetch("employees.json")
@@ -26,4 +27,12 @@ document.addEventListener("DOMContentLoaded", () => {
       listContainer.appendChild(li);
     });
   }
+// searches for employees based on user search input
+  searchInput.addEventListener('input', (e) => {
+    const searchText = e.target.value.toLowerCase();
+    const filtered = employees.filter(emp =>
+      emp.name.toLowerCase().includes(searchText)
+    );
+    renderList(filtered);
+  });
 });
