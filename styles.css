@@ -1,0 +1,45 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f6f8fa;
+  margin: 0;
+  padding: 20px;
+}
+
+.app {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+#search {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 16px;
+  font-size: 16px;
+}
+
+#employee-list {
+  list-style: none;
+  padding: 0;
+}
+
+#employee-list li {
+  background: #fff;
+  padding: 12px;
+  margin-bottom: 8px;
+  border-radius: 6px;
+  cursor: pointer;
+  border: 1px solid #ccc;
+}
+
+#employee-list li:hover {
+  background-color: #f0f0f0;
+}
+
+.employee-header {
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.hidden {
+  display: none;
+}

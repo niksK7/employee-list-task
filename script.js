@@ -22,8 +22,21 @@ document.addEventListener("DOMContentLoaded", () => {
       header.textContent = `${employee.name} - ${employee.title}`;
       header.classList.add("employee-header");
 
+      // displays employee details
+      const details = document.createElement('div');
+      details.classList.add('employee-details', 'hidden');
+      details.innerHTML = `
+        <p><strong>Email:</strong> ${employee.email}</p>
+        <p><strong>Start Date:</strong> ${employee.startDate}</p>
+      `;
+
+      header.addEventListener('click', () => {
+        details.classList.toggle('hidden');
+      });
+      
       //adds the employee info to the list
       li.appendChild(header);
+      li.appendChild(details);
       listContainer.appendChild(li);
     });
   }
