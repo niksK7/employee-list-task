@@ -43,3 +43,9 @@ body {
 .hidden {
   display: none;
 }
+
+mark {
+  background-color: #00FFFF;
+  padding: 0 2px;
+  border-radius: 3px;
+}
